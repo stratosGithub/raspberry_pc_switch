@@ -8,9 +8,13 @@ sudo chmod g+rw /dev/gpiomem
 ```
 
 TURN OFF (should turn off with 4-6 seconds): 
-```python set_gpio_to_true_for_a_while.py --duration=6```
+```
+python set_gpio_to_true_for_a_while.py --duration=6
+```
 
 TURN ON (usually shorter duration for turning on the machine):
-```python set_gpio_to_true_for_a_while.py --duration=2```
+```
+python set_gpio_to_true_for_a_while.py --duration=2
+```
 
 
